@@ -1,7 +1,14 @@
 .PHONY: clean build
+CHAPTER=chapter-1-a-tutorial-introduction
+EXERCISE=1-3
+
+all: clean build run
 
 clean:
 	rm ./build/*.out
 
 build:
-	gcc -Wall -o ./build/1-1.out ./src/chapter-1-a-tutorial-introduction/1-1.c
+	gcc -Wall -o ./build/${EXERCISE}.out "./src/${CHAPTER}/${EXERCISE}.c"
+
+run:
+	./build/${EXERCISE}.out
