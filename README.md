@@ -1,2 +1,3 @@
-# the-c-programming-language-knr-exercises
-Solutions to the exercises in the ANSI C KnR book
+# The C Programming Language Exercises
+Solutions to the exercises in the C programming language book by Kernughan and Ritchie, ANSI C editiion
+
