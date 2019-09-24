@@ -2,10 +2,8 @@
 
 int main()
 {
-  int c;
-  long blanks = 0.0;
-  long tabs = 0.0;
-  long newlines = 0.0;
+  int c, blanks, tabs, newlines;
+  blanks = tabs = newlines = 0;
 
   while ((c = getchar()) != EOF)
   {
@@ -23,9 +21,8 @@ int main()
     }
   }
 
-  printf("blanks: %5.0ld\n", blanks);
-  printf("tabs: %5.0ld\n", tabs);
-  printf("newlines: %5.0ld\n", newlines);
+  printf("%8s %8s %8s\n", "blanks", "tabs", "newlines");
+  printf("%8d %8d %8d\n", blanks, tabs, newlines);
 
   return 0;
 }
