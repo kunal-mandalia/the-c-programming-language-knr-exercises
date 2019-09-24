@@ -1,6 +1,6 @@
 .PHONY: clean build
 CHAPTER=chapter-1-a-tutorial-introduction
-EXERCISE=1-7
+EXERCISE=1-8
 
 all: clean build run
 
